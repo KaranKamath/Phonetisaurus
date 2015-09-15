@@ -28,7 +28,7 @@ DEPENDENCIES
         $ tar -xvzf openfst-1.4.1.tar.gz
         $ cd openfst-1.4.1
         $ ./configure --enable-compact-fsts --enable-const-fsts \
-            --enable-far --enable-lookahead-fsts --enable-pdt --ngram-fsts
+            --enable-far --enable-lookahead-fsts --enable-pdt --enable-ngram-fsts
         $ sudo make install
 
  - OpenGrm (1.2+):
